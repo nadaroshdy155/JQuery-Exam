@@ -1,0 +1,43 @@
+.nav-tab{
+  background-color: #0D0D0D;
+}
+
+.side-nav-menu{
+  z-index: 99999;
+}
+
+.logo{
+  width: 50px;
+}
+
+.meal_item img{
+  width: 100%;
+  border-radius: 15px;
+}
+
+.meal_item .meal_item_layer {
+    background-color: rgba(255, 255, 255, 0);
+    transition: all 0.5s;
+  }
+  
+  .meal_item:hover .meal_item_layer {
+    background-color: rgba(255, 255, 255, 0.658);
+    border-radius: 15px;
+  }
+  
+  .meal_item:hover .meal_item_content {
+    top: 0 !important;
+    bottom: 0;
+  }
+  
+  .meal_item .meal_item_content {
+    transition: all 0.3s;
+  }
+
+.ingredient{
+  background-color: #CFF4FC;
+  border-radius: 5px;
+  border: 1px solid #CFF4FC;
+  width: fit-content;
+
+}  
